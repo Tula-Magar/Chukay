@@ -16,7 +16,7 @@ const Footer = () => {
           <Col md={3} className="mb-3">
             <h5>About Us</h5>
             <p>
-              We are a professional football team dedicated to winning
+              We are the professional football team dedicated to winning
               championships and providing an exciting experience for our fans.
             </p>
           </Col>
