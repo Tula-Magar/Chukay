@@ -1,31 +1,87 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Poppins';
+  background-color: #1e1e1e;
+  background-image: linear-gradient(to right, #00416a, #3b3c3c);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+ 
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.heart {
-  color: #ff0000;
+.shape  {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  z-index: 1;
 }
 
-.small {
-  font-size: 0.75rem;
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(109, 107, 107, 0.2);
+  animation: circle 10s ease infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Icon hover effect */
+i:hover {
+  color: #f00;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Section separator line */
+hr {
+  border-top: 3px solid #333;
+}
+
+/* Background color for team section */
+.team-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
 }
