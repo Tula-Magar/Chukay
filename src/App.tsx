@@ -9,7 +9,7 @@ import Footer from "./GeneralPages/Footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <div className="shape">
           <div className="circle"></div>
