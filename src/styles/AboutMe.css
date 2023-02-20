@@ -1,0 +1,16 @@
+.chukay-story {
+  background-color: #a6a6a6;
+  padding: 50px 0;
+  color: black;
+}
+
+.chukay-story h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.chukay-story p {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}

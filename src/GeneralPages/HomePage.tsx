@@ -305,9 +305,9 @@ const HomePage = () => {
             </tbody>
           </Table>
         </Container>
-        <PlayerProfiles />
-        <PeopleEngagement />
       </section>
+      <PlayerProfiles />
+      <PeopleEngagement />
     </div>
   );
 };
