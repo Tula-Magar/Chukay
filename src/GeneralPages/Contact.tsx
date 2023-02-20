@@ -46,13 +46,13 @@ const Contact = () => {
           <Row>
             <Col md={6}>
               <Form.Group controlId="formName  ">
-                <Form.Label>Name</Form.Label>
+                <Form.Label className="mt-4">Name</Form.Label>
                 <Form.Control type="text" placeholder="Enter your name" />
               </Form.Group>
             </Col>
             <Col md={6}>
               <Form.Group controlId="formEmail  ">
-                <Form.Label>Email</Form.Label>
+                <Form.Label className="mt-4">Email</Form.Label>
                 <Form.Control type="email" placeholder="Enter your email" />
               </Form.Group>
             </Col>
