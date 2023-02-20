@@ -1,11 +1,15 @@
+ 
+
 .App {
   font-family: 'Poppins';
+  font-size: 14px;
   background-color: #1e1e1e;
   background-image: linear-gradient(to right, #00416a, #3b3c3c);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   color: white;
 }
+
 
  
 

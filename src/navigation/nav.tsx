@@ -9,7 +9,7 @@ function NavBar() {
     <> 
         <Navbar expand="md"  expanded={expanded}>
             <Container className='pt-3'>
-                <Navbar.Brand className='text-white' as={NavLink} to="/">My Website</Navbar.Brand>
+                <Navbar.Brand className='text-white' as={NavLink} to="/">Chukay</Navbar.Brand>
                 <Navbar.Toggle className='bg-white' onClick={() => setExpanded(expanded ? false : true)} />
                 <Navbar.Collapse>
                     <Nav className="ms-auto">

@@ -254,13 +254,13 @@ const HomePage = () => {
           </Card>
         </CardGroup>
       </Container>
-      <section id="news-and-updates" className="py-5">
+      <section id="news-and-updates" className="mt-5 py-5">
         <Container>
           <h2 className="text-center mb-5">News and Updates</h2>
           <Row>
             {news.map((item) => (
-              <Col sm={4} key={item.id} className="text-dark my-2">
-                <Card>
+              <Col md={6} lg={4} key={item.id} className="text-dark my-2">
+                <Card className="h-100">
                   <Card.Body>
                     <Card.Title>{item.title}</Card.Title>
                     <Card.Text>{item.content}</Card.Text>

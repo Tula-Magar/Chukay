@@ -3,6 +3,14 @@
   height: 80vh;
  
 }
+.test img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.test img:hover {
+  transform: scale(1.1);
+}
+
 .HomeWelcome {
   font-weight: 600;
   color: #46ca6e;
