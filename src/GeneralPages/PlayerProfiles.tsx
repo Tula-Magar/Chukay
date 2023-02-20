@@ -31,7 +31,7 @@ const PlayerProfiles = () => {
         <h2 className="text-center mb-5">Player Profiles</h2>
         <Row>
           {playerProfiles.map((player) => (
-            <Col sm={12} md={6} lg={4} key={player.id}>
+            <Col sm={12} md={6} lg={4} key={player.id} className=" mb-4">
               <Card className="h-100 player-card mb-4 text-dark">
                 <Card.Img variant="top" src={player.image} />
                 <Card.Body>

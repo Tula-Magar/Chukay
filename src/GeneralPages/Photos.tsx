@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
 const Photos = () => {
   const images = [
@@ -47,10 +47,10 @@ const Photos = () => {
   return (
     <Container className="my-5 py-5">
       <h2 className="text-center my-5">Photos</h2>
-      <Row className="mb-5">
+      <Row className="mb-5 d-flex justify-content-center">
         {images.map((image) => (
-          <Col md={4} lg={3} className="mb-4" key={image.id}>
-            <Image src={image.src} alt={image.alt} fluid />
+          <Col sm={12} md={4} lg={3} className="mb-4" key={image.id}>
+            <Card.Img src={image.src} alt={image.alt} />
           </Col>
         ))}
       </Row>

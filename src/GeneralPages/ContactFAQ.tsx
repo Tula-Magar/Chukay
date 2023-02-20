@@ -1,4 +1,4 @@
-import { Accordion, Card, Button, Container } from "react-bootstrap";
+import { Accordion, Container } from "react-bootstrap";
 
 function ContactFAQ() {
   return (
