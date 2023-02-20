@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Chukay/static/css/main.02d436fe.css",
-    "main.js": "/Chukay/static/js/main.6e242cf0.js",
+    "main.js": "/Chukay/static/js/main.069466a0.js",
     "static/media/soccerplayer.svg": "/Chukay/static/media/soccerplayer.5ee8b34fc7df60de99358cdf0ef08967.svg",
     "index.html": "/Chukay/index.html",
     "main.02d436fe.css.map": "/Chukay/static/css/main.02d436fe.css.map",
-    "main.6e242cf0.js.map": "/Chukay/static/js/main.6e242cf0.js.map"
+    "main.069466a0.js.map": "/Chukay/static/js/main.069466a0.js.map"
   },
   "entrypoints": [
     "static/css/main.02d436fe.css",
-    "static/js/main.6e242cf0.js"
+    "static/js/main.069466a0.js"
   ]
 }
