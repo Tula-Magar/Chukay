@@ -10,7 +10,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer style={{fontSize:"12px"}} className="bg-dark text-light text-center mt-5 py-5">
+    <footer
+      style={{ fontSize: "12px" }}
+      className="bg-dark text-light text-center mt-5 py-5"
+    >
       <Container>
         <Row>
           <Col md={6} lg={3} className="mb-3 h-100">
@@ -64,7 +67,11 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md={6} lg={3} className="mb-3 h-100">
-            <h5>Contact Us</h5>
+            <h5>
+              <Link className="text-decoration-none" to="/contact">
+                Contact Us
+              </Link>
+            </h5>
             <ul className="list-unstyled">
               <li> Email: example@example.com</li>
               <li> Phone: (123) 456-7890</li>

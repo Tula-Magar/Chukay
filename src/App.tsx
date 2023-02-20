@@ -6,6 +6,7 @@ import Contact from "./GeneralPages/Contact";
 import Nav from "./navigation/nav";
 import "./App.css";
 import Footer from "./GeneralPages/Footer";
+import ScrollToTop from "./GeneralPages/ScrollToTop";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <div className="circle"></div>
         </div>
         <div className="content">
+          <ScrollToTop />
           <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
