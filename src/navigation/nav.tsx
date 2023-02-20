@@ -13,7 +13,7 @@ function NavBar() {
                 <Navbar.Toggle className='bg-white' onClick={() => setExpanded(expanded ? false : true)} />
                 <Navbar.Collapse>
                     <Nav className="ms-auto">
-                    <Nav.Link className='text-white' as={NavLink} to="/Chukay" onClick={() => setExpanded(false)}>
+                    <Nav.Link className='text-white' as={NavLink} to="/" onClick={() => setExpanded(false)}>
                         Home
                     </Nav.Link>
                     <Nav.Link className='text-white' as={NavLink} to="/about" onClick={() => setExpanded(false)}>

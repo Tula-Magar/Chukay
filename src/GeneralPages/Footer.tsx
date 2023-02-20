@@ -26,7 +26,7 @@ const Footer = () => {
               <li>
                 <HashLink
                   className="text-decoration-none"
-                  to="/Chukay#news-and-updates"
+                  to="/#news-and-updates"
                 >
                   New Head Coach Announced
                 </HashLink>

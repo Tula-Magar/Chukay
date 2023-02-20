@@ -11,7 +11,7 @@ const AboutMe = () => {
     <Container className="text-center">
       <h1 className="mb-5">Welcome to Chukay!</h1>
       <p className="lead mb-5">
-        We are the passionate community of soccer fans, players, and enthusiasts
+        We are a passionate community of soccer fans, players, and enthusiasts
         who love everything about the beautiful game. Our mission is to bring
         together like-minded individuals from all over the world and create a
         fun and engaging space where we can share our love for soccer.
