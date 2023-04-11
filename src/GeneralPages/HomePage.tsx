@@ -110,14 +110,14 @@ const HomePage = () => {
     <div>
       <Container className="test">
         <h1 className="HomeWelcome mt-5">
-          <i> Welcome to My Website </i>
+          <i> Welcome to Chukay </i>
         </h1>
         <img
           src={SoccerPlayer}
           style={{ width: "100%", height: "65vh" }}
           alt="soccer player not found"
         />
-        <h1 className="HomeBest mb-n5">We Are The Best Team</h1>
+        <h1 className="HomeWelcome HomeBest mb-n5"> <i>We Are The Best Team</i></h1>
       </Container>
 
       <Container className="chukay-container my-5 py-5 d-lg-none d-xl-none d-sm-block d-md-block  ">
